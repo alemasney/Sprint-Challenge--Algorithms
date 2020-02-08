@@ -18,4 +18,4 @@ def count_th(word):
             # recursive case
             return count_th(word[1:])
         
-count_th('abcthfcthaedt')
+print(count_th('abcthefthghith'))

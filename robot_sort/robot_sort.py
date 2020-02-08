@@ -96,10 +96,23 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # return self._list.sort()
-        # base case
-        if len(self._list) == 0:
-            pass
+        return self._list.sort()
+        
+        # for loop through the list so i == current index
+            # while the current index is smaller then the index to the right.
+                # if above is wrong switch the current index with to index of the one on right
+                # exit while loop to incremment to the next i to run again.
+        # return sorted list
+
+        # for i in range(len(self._list)-1):
+        #     print(i)
+        #     if self._list[i] > self._list[i+1]:
+        #         self._list[i], self._list[i+1] = self._list[i+1], self._list[i]
+
+        # return self._list
+
+
+
 
 
 if __name__ == "__main__":
